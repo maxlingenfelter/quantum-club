@@ -23,8 +23,7 @@ print(sv)
 # --- Visualization ---
 
 # Figure 1: The quantum circuit
-plt.figure(1)
-qcBell.draw("mpl")
+fig1 = qcBell.draw("mpl")
 
 # Figure 2: The statevector 'city' plot
 # plt.figure(2)
